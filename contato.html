@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPrime Oficina | Contato</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="topo">
+    <div class="container nav-container">
+      <h1 class="logo">Moto<span>Prime</span></h1>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="novidades.html">Novidades</a></li>
+          <li><a href="contato.html" class="ativo">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="secao pagina-interna">
+    <div class="container">
+      <h2 class="titulo-secao">Entre em contato</h2>
+      <div class="grid-2 contato-grid">
+
+        <div class="card">
+          <h3>Informações da empresa</h3>
+          <ul class="info-lista">
+            <li>
+              <a href="https://maps.google.com/?q=Rua+das+Motocicletas+150+Rio+de+Janeiro" target="_blank">
+                <img src="source/map-pin.svg" alt="Endereço">
+                Rua das Motocicletas, 150 - Rio de Janeiro, RJ
+              </a>
+            </li>
+            <li>
+              <a href="tel:+5521982246189">
+                <img src="source/phone.svg" alt="Telefone">
+                (21) 99999-9999
+              </a>
+            </li>
+            <li>
+              <a href="mailto:contato@motoprime.com">
+                <img src="source/mail.svg" alt="E-mail">
+                contato@motoprime.com
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/motoprimeoficina" target="_blank">
+                <img src="source/instagram.svg" alt="Instagram">
+                @motoprimeoficina
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5521982246189" target="_blank">
+                <img src="source/whatsapp.svg" alt="WhatsApp">
+                (21) 99999-9999
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="formulario card" id="form-contato">
+          <h3>Envie sua mensagem</h3>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="6" placeholder="Digite sua mensagem" required></textarea>
+
+          <button type="submit" class="btn">Enviar mensagem</button>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>© 2026 MotoPrime Oficina - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button id="btnTopo" title="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
